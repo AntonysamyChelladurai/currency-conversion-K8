@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: CurrencyConversion
+server:
+  port: 8100
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,refresh,keepalive,health
